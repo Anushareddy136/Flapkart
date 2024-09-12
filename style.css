@@ -1,0 +1,303 @@
+#website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    #nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 600px;
+
+
+        #nav_menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            #nav_text {
+                color: gray;
+                font-size: 15px;
+            }
+
+            #icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+
+                #icon {
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 50%;
+                
+                }
+
+
+            }
+
+        }
+    }
+
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./WhatsApp\ Image\ 2024-09-05\ at\ 13.25.43_ace4320d.jpg");
+        border: 2px black solid;
+        font-weight: bold;
+        padding: 120px 425px;
+        
+        
+        #first {
+            font-size:60px;
+            padding: 30px;
+            color: white;
+            width: 600px;
+            text-align:center;
+        }
+
+        #para {
+            color: white;
+            width: 400px;
+            text-align: center;
+            padding: 20px;
+            font-style: normal ;
+            
+        }
+
+        #dual {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 50px 50px;
+            background-color: black;
+
+
+            #inp {
+                color: black;
+                font-size: 15px;
+                padding:10px 50px;
+                background-color:white;
+            }
+
+            #subscribe {
+                padding:10px;
+                background-color: rgb(48, 185, 240);
+                border-radius:5px;
+                color:white;
+
+            }
+        }
+
+        #note {
+            color: rgba(135, 207, 235, 0.793);
+            font-size: 15px;
+            padding: 20px;
+        }
+    }
+    #main2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding:10px 280px;
+        border: 2px gray solid;
+        background-color: rgba(135, 207, 235, 0.108);
+        
+        #bar{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding:20px 10px;
+            font-size: 20px;
+            
+            #img{
+                border: 3px rgba(135, 207, 235, 0.837) solid;
+                padding: 20px;
+                border-radius: 50%;
+            
+            img{
+                height: 50px;
+                width: 50px;
+                
+            } 
+            }
+            #info{
+                width:200px;
+                text-align: start;
+                color:rgb(79, 78, 78);
+            }       
+        }
+        
+        }
+           
+    #bundlecontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px black solid;
+        padding:50px;
+        
+        #main3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            gap:150px;
+
+            #about{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:start;
+                width:400px;
+                text-align:start;
+
+                #heading{
+                    font-size: 30px;
+                    padding: 10px;
+
+                }
+                #subheading{
+                    font-size:25px;
+                    color: rgb(94, 85, 85);
+                }
+                #description{
+                    font-size: 20px;
+                    color: gray;
+                    
+                }
+            }
+        }
+     }
+    #clients{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+
+        #heading1{
+            text-align: center;
+            font-size: 30px;
+            color: rgb(57, 45, 45);
+        }
+        #description1{
+            font-size:17px;
+            color: gray;
+            margin-bottom: 60px;
+        }
+        #images{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+            gap:100px;
+            padding-bottom:70px ;
+        }
+         
+    }
+    #clientwords{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 400px;
+        background-color: rgb(246, 241, 241);
+
+        #heading2{
+            text-align: center;
+            font-size: 30px;
+            color: rgb(57, 45, 45);
+            }
+            #description2{
+                font-size: 17px;
+                color: gray;
+                margin-bottom: 40px;
+             }
+             #bar2{
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+                
+                #opinion{
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: center;
+                    align-items: center;
+                    gap:5px;
+
+                    img{
+                        
+                        padding:10px;
+                        background-color: rgba(245, 241, 241, 0.116);
+                        border-radius: 50%;
+                    }
+                    #para{
+                        
+                        background: white;
+                        width:250px;
+                    }
+                }
+            } 
+        }
+        
+        #conclusion{
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                padding:60px;
+                gap:20px;
+                #heading3{
+                    text-align: center;
+                    font-size: 30px;
+                    color: rgb(20, 8, 8); 
+                    margin-bottom: 20px;
+                    }
+                     #description3{
+                        font-size: 17px ;
+                        color: gray;
+                        width:250px;
+                        text-align: center;
+                        margin-bottom: 40px;
+                    }  
+                    #subscription{
+                        border:none;
+                        font-size: 20px;
+                        padding:10px;
+                        background-color:rgb(28, 179, 239);
+                        color:white;
+                        border-radius: 3px;
+                    }
+                }
+        }
+
+                
+    
+
+             
+
+            
+        
+   
+    
+
+    
+        
+                
